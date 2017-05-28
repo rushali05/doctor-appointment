@@ -1,0 +1,193 @@
+/***************************/
+Title theme color: #1976D2;
+important contant color:#ef5350 ;
+Section theme color: #eeeeee;
+
+
+/***************************/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper{
+	max-width: 1349px;
+	margin:auto;
+}
+
+/*body{
+	background-color: #eeeeee;
+}*/
+
+.active{
+	background-color: #ef5350;
+	color:black;
+}
+.active a{
+	background-color: #ef5350!important;
+	color:black!important;
+}
+
+.sectionpadding{
+	padding:50px 30px 60px 30px;
+}
+
+.sectionTitle{
+	margin-bottom: 50px;
+	font-size: 260%;
+}
+
+/* social link  starts*/
+#social_icon_wrapper {
+    position: fixed;
+    top: 25%;
+    left: 0px;
+    z-index: 99999;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px;
+}
+#social_icon_wrapper div a {
+    font-size: 20px;
+}
+/* social link  ends*/
+
+/* read more button starts*/
+.view_more {
+	margin-top: 40px;
+}
+.view_more a{
+  background:#ef5350;
+  padding: 10px 20px;
+  color:white;
+  text-decoration: none;
+  border:1px solid #ef5350;
+  margin-top: 30px;
+}
+.view_more a:hover{
+  background-color:#eeeeee;
+  transition:1s;
+  color:black;
+  border:1px solid black;
+}
+/* read more button ends*/
+
+
+/************** navigation starts **********************/
+.navCus{
+	background-color: #1976D2!important;
+	border-color: #1976D2!important;
+	border-radius: 0px;
+}
+
+.navCus a{
+	color: white!important;
+}
+
+.navCus li :hover{
+	background-color: #ef5350!important;
+	color:black!important;
+}
+
+
+/************** navigation ends **********************/
+
+
+/**************** slider starts**********************/
+
+#home_slider h3{
+	font-size: 25px;
+}
+
+#home_slider h3 span{
+	background-color: #ef5350;
+	padding:5px 20px;
+}
+
+
+/**************** slider ends**********************/
+
+
+/************** home about us  starts***************/
+#home_aboutus{
+	background-color: #eeeeee;
+}
+#home_aboutus #aboutus_contents p{
+	font-size: 120%;
+}
+
+/************** home about us  ends ***************/
+
+
+/************** home doctor list  starts ***************/
+#home_doctorlist{
+	background-color: #E0E0E0;
+}
+
+#home_doctor_contents img{
+	width: 100%;
+	height: 220px;
+}
+#home_doctor_contents figcaption{
+	font-size: 20px;
+	text-align: center;
+	background-color:#ef5350;
+	padding: 8px; 
+	color:white;
+}
+
+/************** home doctor list  ends ***************/
+
+/************** home book appointment  starts ***************/
+
+#attachBg{
+	background: url('../img/attachBg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#home_book_appointment{
+	background-color: rgba(0, 0, 255, 0.4);
+	color:white;
+}
+
+/************** home book appointment  ends ***************/
+
+
+
+/************** footer contact us  starts ***************/
+#home_contactus{
+	background-color: #262626;
+	color:white;
+}
+
+.contactInfoBox{
+	border:1px solid teal;
+	padding: 10px 20px;
+	font-size: 120%;
+}
+/************** footer contact us  ends ***************/
+
+
+/************** footer copyright  starts ***************/
+#footer_copyright{
+	background-color: black;
+	color:white;
+	padding: 20px;
+}
+
+#login_modal_contents,#signup_modal_contents{
+	padding: 0px 20px 20px 20px;
+}
+
+#loginModal .modal-header, #signupModal .modal-header{
+	background-color: #1976D2;
+	color: white;
+}
+#loginSubmitBtn,#signupSubmitBtn{
+	background-color: #EF5350;
+	border:0px;
+}
+
+/************** footer copyright  ends ***************/
